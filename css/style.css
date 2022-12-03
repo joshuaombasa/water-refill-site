@@ -1,0 +1,46 @@
+.header {
+    background-color: blue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.topz {
+    display: flex ;
+    font-size: 10px;
+}
+
+.nav-list-items {
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.section1 {
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pruduct-list {
+    width: 250px;
+    height: 250px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product1 {
+    width: 200px;
+}
